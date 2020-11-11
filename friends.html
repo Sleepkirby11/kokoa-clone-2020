@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to KAKAOTALK_Clone!</title>
+    <title>Friends - KAKAOTALK_Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,24 +23,16 @@
 
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KAKAOTALK_Clone!</h1>
-        <p class="welcome-header__text">
-            if you have kakao account, log in with email or phone number.
-        </p>
-    </header>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
 
 
-    <form action="friends.html" method="GET" id="login_form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="password" />
-        <input type="submit" value="Log in" />
-        <a href="#">Find kakao Account or Password</a>
-    </form>
-
-
-
-    
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
     </script>
 </body>
